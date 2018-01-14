@@ -1,0 +1,180 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+VIPprojects
+</name>
+</assembly>
+<members>
+<member name="T:VIP_projects.vipDataSet2.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet2.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet2.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet2">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet2TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet5.distDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet5.distRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet5.distRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet5">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet5TableAdapters.distTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet1.custmeracDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet1.custmeracRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet1.custmeracRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet1">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet1TableAdapters.custmeracTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet4.distDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet4.distRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet4.distRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet4">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet4TableAdapters.distTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.download__1_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.download__1_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.download__2_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.download__5_">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.GOD_036">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.hanuman_heart_rama_sita">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.hanuman_heart_rama_sita1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.IMG_20151119_144125">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:VIP_projects.My.Resources.Resources.LOGO">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="T:VIP_projects.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet3.stockDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet3.stockRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet3.stockRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet3">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet3TableAdapters.stockTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet.custmeracDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet.custmeracRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:VIP_projects.vipDataSet.custmeracRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:VIP_projects.vipDataSet">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:VIP_projects.vipDataSetTableAdapters.custmeracTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+</members>
+</doc>

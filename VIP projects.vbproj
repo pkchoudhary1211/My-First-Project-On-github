@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{A044AD8C-31D4-4140-A16C-07B2C72689C5}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>VIP_projects.My.MyApplication</StartupObject>
+    <RootNamespace>VIP_projects</RootNamespace>
+    <AssemblyName>VIP projects</AssemblyName>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>VIP projects.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>VIP projects.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.Framework, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Enterprise.InfoStore, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=10.2.3600.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Windows\assembly\GAC_MSIL\System.Web.Services\2.0.0.0__b03f5f7f11d50a3a\System.Web.Services.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Addaccount.Designer.vb">
+      <DependentUpon>Addaccount.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Addaccount.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ADMIN.Designer.vb">
+      <DependentUpon>ADMIN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ADMIN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="astock.Designer.vb">
+      <DependentUpon>astock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="astock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cs account.Designer.vb">
+      <DependentUpon>cs account.vb</DependentUpon>
+    </Compile>
+    <Compile Include="cs account.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="distbuter.Designer.vb">
+      <DependentUpon>distbuter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="distbuter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.vb">
+      <DependentUpon>Form3.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form3.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="NETWORK.Designer.vb">
+      <DependentUpon>NETWORK.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NETWORK.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="new connection.Designer.vb">
+      <DependentUpon>new connection.vb</DependentUpon>
+    </Compile>
+    <Compile Include="new connection.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form4.Designer.vb">
+      <DependentUpon>form4.vb</DependentUpon>
+    </Compile>
+    <Compile Include="form4.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="vipDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vipDataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vipDataSet2.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vipDataSet3.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vipDataSet4.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="vipDataSet5.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>vipDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="wherehousevb.Designer.vb">
+      <DependentUpon>wherehousevb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="wherehousevb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Addaccount.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Addaccount.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ADMIN.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>ADMIN.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="astock.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>astock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cs account.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>cs account.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="distbuter.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>distbuter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>Form3.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NETWORK.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>NETWORK.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="new connection.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>new connection.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="form4.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>form4.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="wherehousevb.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>wherehousevb.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IMAGE\hanuman-wallpaper.jpg" />
+    <None Include="app.config" />
+    <None Include="Resources\IMG_20151119_144125.jpg" />
+    <None Include="Resources\download %281%291.jpg" />
+    <None Include="Resources\download %281%29.jpg" />
+    <None Include="Resources\GOD-036.JPG" />
+    <None Include="Resources\hanuman-heart-rama-sita1.jpg" />
+    <None Include="Resources\download %285%29.jpg" />
+    <None Include="Resources\download %282%29.jpg" />
+    <None Include="Resources\hanuman-heart-rama-sita.jpg" />
+    <None Include="Resources\LOGO.jpg" />
+    <None Include="vipDataSet.xsc">
+      <DependentUpon>vipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet.xss">
+      <DependentUpon>vipDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet1.xsc">
+      <DependentUpon>vipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet1.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet1.xss">
+      <DependentUpon>vipDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet2.xsc">
+      <DependentUpon>vipDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet2.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet2.xss">
+      <DependentUpon>vipDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet3.xsc">
+      <DependentUpon>vipDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet3.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet3.xss">
+      <DependentUpon>vipDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet4.xsc">
+      <DependentUpon>vipDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet4.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet4.xss">
+      <DependentUpon>vipDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet5.xsc">
+      <DependentUpon>vipDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="vipDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>vipDataSet5.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="vipDataSet5.xss">
+      <DependentUpon>vipDataSet5.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

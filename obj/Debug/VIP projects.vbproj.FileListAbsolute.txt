@@ -1,0 +1,21 @@
+H:\pk pro\VIP projects\VIP projects\bin\Debug\VIP projects.exe.config
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP projects.exe
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP projects.xml
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP projects.pdb
+H:\pk pro\VIP projects\VIP projects\bin\Debug\VIP projects.exe
+H:\pk pro\VIP projects\VIP projects\bin\Debug\VIP projects.pdb
+H:\pk pro\VIP projects\VIP projects\bin\Debug\VIP projects.xml
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.Addaccount.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.ADMIN.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.astock.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.cs_account.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.distbuter.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.Form1.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.Form2.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.Form3.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.Resources.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.NETWORK.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.new_connection.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.form4.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP_projects.wherehousevb.resources
+H:\pk pro\VIP projects\VIP projects\obj\Debug\VIP projects.vbproj.GenerateResource.Cache

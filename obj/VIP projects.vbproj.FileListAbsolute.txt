@@ -1,0 +1,22 @@
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\bin\Debug\VIP projects.exe
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\bin\Debug\VIP projects.pdb
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\bin\Debug\VIP projects.xml
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.Form1.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.Resources.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP projects.vbproj.GenerateResource.Cache
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP projects.exe
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP projects.xml
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP projects.pdb
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.Form2.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.Addaccount.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.new_connection.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.Form3.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.form4.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.cs_account.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.wherehousevb.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.ADMIN.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.NETWORK.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.astock.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\obj\Debug\VIP_projects.distbuter.resources
+C:\Users\Reks\Documents\Visual Studio 2005\Projects\VIP projects\VIP projects\bin\Debug\VIP projects.exe.config
